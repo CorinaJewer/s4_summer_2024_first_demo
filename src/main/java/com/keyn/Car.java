@@ -4,7 +4,7 @@ public class Car {
 
     private String teamName;
 
-    private String driver;
+    private Driver driver;
 
     private String raceClass;
 
@@ -22,11 +22,11 @@ public class Car {
         this.teamName = teamName;
     }
 
-    public String getDriver() {
+    public Driver getDriver() {
         return driver;
     }
 
-    public void setDriver(String driver) {
+    public void setDriver(Driver driver) {
         this.driver = driver;
     }
 
